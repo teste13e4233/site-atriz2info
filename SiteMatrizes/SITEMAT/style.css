@@ -1,0 +1,84 @@
+@import url('https://fonts.cdnfonts.com/css/tiktok-text-display');
+
+*{
+    font-family: 'TikTok Text', sans-serif;
+    padding: 0px;
+    margin: 0.1px;
+    
+}
+
+.header{
+    background: url(assets/topo-institucional.png);
+    min-height: 6em;
+    text-align: right;
+    display:flex;
+    flex-wrap: wrap;
+    color:white;
+}
+
+#img_campus{
+    text-align:left;
+    display:flex;
+    width:32em;
+    padding-left:3em;
+    padding-top:0.4em;
+}
+
+#tbtitle{
+    padding-left: 7em;
+    font-size:1.2em;
+}
+
+.redirec{
+    display:flex;
+    flex-direction:row-reverse;
+    padding-right:2em;
+}
+
+.brredirec{
+    padding-right: 1em;
+    font-size:1.4em;
+}
+
+.linetb{
+    border-bottom:double #a9a9a9 1px;
+    text-decoration: none;
+}
+
+.bodypag{
+    display:flex;
+    
+}
+
+.brLateral{
+    flex-basis:44em;
+    font-size: 1.2em;
+    margin-left: 1em;
+}
+
+#maintext{
+    margin-left: 3em;
+    margin-right: 10em;
+    margin-top: 3em;
+    font-size:1.4em;
+}
+
+.end{
+    background: url(assets/topo-institucional.png);
+    min-height: 5em;
+}
+
+a {
+    color:rgb(85, 85, 85);
+    text-decoration: none;
+}
+  
+  /* Muda a cor do link quando estiver com o mouse em cima*/
+a:hover {
+    color: red;
+}
+  
+  /* Altera a cor do link qundo ja foi clicado */
+a:visited {
+    color: purple;
+}

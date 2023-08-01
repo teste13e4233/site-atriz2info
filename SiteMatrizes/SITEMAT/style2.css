@@ -1,0 +1,142 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcfcfc; /* Green background color */
+}
+
+/* Estilos da barra de navegação */
+.navbar {
+  background-color: #060000; /* Red navbar background color */
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 15px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #fe0000;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #000000; /* White title color */
+}
+
+main p {
+  font-size: 18px;
+  color: #000; /* Black paragraph color */
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.result-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: #f44336;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.result {
+  font-size: 50px;
+  color: #fff;
+  transition: transform 0.5s ease-in-out;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+@keyframes flipInX {
+  from {
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flipOutX {
+  from {
+    transform: rotateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
+}
+
